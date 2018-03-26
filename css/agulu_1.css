@@ -302,10 +302,10 @@ img {
 	text-align:left;
 	margin-left:10px;
 	font-family: 'IBM Plex Serif', serif;
-	font-size:18px;
+	font-size:20px;
 }
 
-.welcome_slide h2 {
+.welcome_slide h1 {
 	margin-bottom:0;
 	padding-bottom:0;
 }
