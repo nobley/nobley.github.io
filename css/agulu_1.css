@@ -7,7 +7,6 @@ body {
 
 .main {
 	width:98%;
-	height:600px;
 	margin:auto;   
 }
 	
@@ -90,6 +89,13 @@ li.right {float:right;}
 	
 .clear {
 	clear:both;
+}
+.clear_left {
+	clear:left;
+}
+
+.clear_right {
+	clear:right;
 }
 
 .tbar {
@@ -267,12 +273,12 @@ img {
 
 #map {
 	float:right;
-	width:20%;
-	height:50%;
+	width:297px;
+	height:320px;
 	background:yellow;
 }
 .his {
-	width:20%;
+	width:297px;
 	float:left;
 	background-color:white;
 }
@@ -308,6 +314,14 @@ img {
 .welcome_slide h1 {
 	margin-bottom:0;
 	padding-bottom:0;
+}
+
+.hr {
+	height:10px;
+	background-color:darkolivegreen;
+	margin:0;
+	padding:0;
+	width:50%;
 }
 
 .hisbod {
@@ -362,4 +376,56 @@ img {
 
 @media screen and (max-height: 450px) {
   .slide {padding-top: 15px;}
+}
+
+.about {
+	width:80%;
+	margin:auto;
+	padding-top:30px;
+}
+
+.about_head_left, .about_head_right{
+	width:48%;
+	background-color:olive;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	color:thistle;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:30px;
+	font-weight:600;
+}
+
+.about_head_left {
+	float:left;
+}
+
+.about_head_left::after {
+	clear:left;
+}
+
+.about_head_right {
+	float:right;
+}
+
+.about_his_left, .about_his_right {
+	width:48%;
+	height:300px;
+	border-left:10px solid lightsalmon;
+	border-right:10px solid lightsalmon;
+	border-bottom:10px solid lightsalmon;
+	background-color:lightpink;
+	text-align:justify;
+	font-family: 'Roboto Slab', serif;
+	font-size:18px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.about_his_left {
+	float:left;
+}
+
+.about_his_right {
+	float:right;
 }
