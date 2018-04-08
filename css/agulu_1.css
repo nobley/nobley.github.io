@@ -227,6 +227,7 @@ li.right {float:right;}
 .slideshow-container {
   position: relative;
   width:60%;
+  height:620px;
   margin: auto;
   z-index:-1;
   float:left;
@@ -273,14 +274,24 @@ img {
 
 #map {
 	float:right;
-	width:297px;
-	height:320px;
+	width:20%;
+	height:310px;
 	background:yellow;
 }
+
+.calendar {
+	float:right;
+	width:20%;
+	height:310px;
+	background:yellow;
+}
+
 .his {
-	width:297px;
+	width:20%;
+	height:620px;
 	float:left;
 	background-color:white;
+	border-bottom:10px solid #CF0;
 }
 
 .welcome {
@@ -304,6 +315,16 @@ img {
 	padding-right:3px;
 }
 
+.hisbod {
+	border-left:5px solid #CF0;
+	border-right:5px solid #CF0;
+	padding:8px;
+	padding-top:1px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size:17.2px;
+	text-align:justify;
+}
+
 .welcome_slide {
 	text-align:left;
 	margin-left:10px;
@@ -322,16 +343,6 @@ img {
 	margin:0;
 	padding:0;
 	width:50%;
-}
-
-.hisbod {
-	border-left:5px solid #CF0;
-	border-right:5px solid #CF0;
-	padding:8px;
-	padding-top:1px;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size:17.2px;
-	text-align:justify;
 }
 
 .hisbod_slide {
@@ -384,7 +395,7 @@ img {
 	padding-top:30px;
 }
 
-.about_head_left, .about_head_right{
+.about_head_left, .about_head_right {
 	width:48%;
 	background-color:olive;
 	height:50px;
@@ -415,17 +426,21 @@ img {
 	border-right:10px solid lightsalmon;
 	border-bottom:10px solid lightsalmon;
 	background-color:lightpink;
-	text-align:justify;
 	font-family: 'Roboto Slab', serif;
-	font-size:18px;
 	padding-left:10px;
 	padding-right:10px;
+	margin-bottom:30px;
 }
 
 .about_his_left {
 	float:left;
+	text-align:justify;
+	font-size:18px;
 }
 
 .about_his_right {
 	float:right;
+	text-align:left;
+	font-size:22px;
+	font-style:italic;
 }
